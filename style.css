@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Harir';
+    src: url('Harir-Reg.woff2') format('woff2'),
+        url('Harir-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Harir';
+    src: url('Harir-Bld.woff2') format('woff2'),
+        url('Harir-Bld.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Harir', sans-serif;
+}
+
+html, body{
+    background-color: #eae8e3;
+}
+
+.logoimageonphone {
+    width: 250px;
+    position: absolute;
+}   
+
+@media (min-width: 768px) {
+    .logoimage {
+        width: 225px;
+    }
+    .navigationitemsleft {
+        margin-right: 40px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .navigationitemsright {
+        margin-left: 40px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .logoimageonphone {
+        display: none;
+    }
+}
+@media (max-width: 575px) {
+    .logoimageonphone {
+        margin-left: 43%;
+    }
+}
+@media (min-width: 575px) {
+    .logoimageonphone {
+        margin-left: 45%;
+    }
+}
+@media (max-width: 767px) {
+    .logoimage {
+        display: none;
+    }
+    .navigationitemsleft,
+    .navigationitemsright {
+        margin-top: 10px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+img[src="fashion.png"]:hover{
+    content: url(fashion-color.png);
+}
+
+img[src="culture.png"]:hover{
+    content: url(culture-color.png);
+}
+
+img[src="foundation.png"]:hover{
+    content: url(foundation-color.png);
+}
