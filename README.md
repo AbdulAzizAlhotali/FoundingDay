@@ -1,4 +1,4 @@
-![alt text](https://www.foundingday.sa/assets/asset-3.svg)
+![يوم التاسيس](https://www.foundingday.sa/assets/asset-3.svg)
 
 # مشروع يوم التأسيس
 موقع يوم التأسيس - مادة التقنية الرقمية - مشروع الوحدة الثالثة - الفصل الدراسي الثاني
@@ -8,6 +8,6 @@
 - CSS (Bootstrap)
 - Javascript (AOS)
 
-**الهوية المعتمدة في الموقع**
+**الهوية المعتمدة في الموقع:**
 - الخط: حرير
 - لون الخلفية: `#EAE8E3`
